@@ -16,21 +16,25 @@
     </head>
 
     <body>
+
+
+<!----------------------------------------------------------header start--------------------------------------->
+
+
+
+
+
+
         <!-- ----------------------------------gaurav code start------------------------>
         <section class="dynamic-section">
             <h5 id="dynamic-heading"></h5>
         </section>
         <!-- ----------------------------------gaurav code end------------------------>
 
-
-
-
-
-
         <header class="home-header-main">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img src="assets/img/logo/siyaavar-siyaa.png" alt="Logo" class="img-fluid" style="max-height: 45px;" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,8 +47,8 @@
                                     Man
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMans">
-                                    <li><img src="assets/img/logo/siyaavar-.png" alt="" width="80%"></li>
-                                    <hr>
+                                    <li><img src="assets/img/logo/siyaavar-.png" alt="" width="80%" /></li>
+                                    <hr />
                                     <li><a class="dropdown-item" href="menscollection.html">All Collections(Men)</a></li>
                                     <li><a class="dropdown-item" href="menscollection.html">Sherwaani</a></li>
                                     <li><a class="dropdown-item" href="#">Kurta Pajama</a></li>
@@ -57,10 +61,10 @@
                                     Woman
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownWoman">
-                                    <li><img src="assets/img/logo/siyaa-logo.png" alt="" width="70%"></li>
+                                    <li><img src="assets/img/logo/siyaa-logo.png" alt="" width="70%" /></li>
                                     <li><a class="dropdown-item" href="designersaree.html">All Collection(Women)</a></li>
                                     <li><a class="dropdown-item" href="#">Designer Saaree</a></li>
-                                    <li><a class="dropdown-item" href="#">Lahenge</a></li>
+                                    <li><a class="dropdown-item" href="lahenga.html">Lahenga</a></li>
                                     <li><a class="dropdown-item" href="#">Indo Western</a></li>
                                 </ul>
                             </li>
@@ -102,9 +106,13 @@
                                     <li><a class="dropdown-item" href="#">Sleek Blazer & Trousers</a></li>
                                 </ul>
                             </li>
+                            <li>
+                                <a class="nav-link " href="about.html">About Us</a>
+                            </li>
                         </ul>
                         <div class="d-flex align-items-center">
-                            <button class="btn me-2"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                            <!-- <button class="btn me-2"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button> -->
+                            <button id="searchButton" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                             <button class="btn me-2"><i class="fa-solid fa-cart-shopping"></i></button>
                             <button class="btn me-2"><i class="fa-solid fa-bell"></i></button>
                             <button class="btn" onclick="openModal()"><i class="fa-solid fa-user"></i></button>
@@ -124,16 +132,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <img src="assets/img/logo/siyaavar-.png" class="img-fluid" width="250" alt="Siyaa Logo" />
+                <a href="menscollection.html"> <img src="assets/img/logo/siyaavar-.png" class="img-fluid" width="50%" alt="Siyaa Logo" /></a>
                 <p>Elevate Your Style with <b>Siyaavar</b>: The Best in Men's Fashion</p>
                 <div class="siyaa-box">
-                    <img src="assets/img/logo/siyaa-logo.png" class="img-fluid" width="150" alt="Siyaa" />
+                    <a href=""> <img src="assets/img/logo/siyaa-logo.png" class="img-fluid" width="150" alt="Siyaa" /></a>
                     <p>Elevate Your Style with <b>Siyaa</b>: The Best in Women's Fashion</p>
                     <div class="womens_images">
-                        <div class="img-container"><img src="assets/img/womens-prducts/img-01.jpg" class="img-fluid" alt="Women's Product" /></div>
-                        <div class="img-container"><img src="assets/img/womens-prducts/img-09.jpg" class="img-fluid" alt="Women's Product" /></div>
-                        <div class="img-container"><img src="assets/img/womens-prducts/img-13.jpg" class="img-fluid" alt="Women's Product" /></div>
-                        <div class="img-container"><img src="assets/img/womens-prducts/img-17.jpg" class="img-fluid" alt="Women's Product" /></div>
+                        <div class="img-container mt-3"><img src="assets/img/womens-prducts/img-01.jpg" class="img-fluid" alt="Women's Product" width="100%" /></div>
+                        <div class="img-container mt-3"><img src="assets/img/womens-prducts/img-09.jpg" class="img-fluid" alt="Women's Product" width="100%" /></div>
+                        <div class="img-container mt-3"><img src="assets/img/womens-prducts/img-13.jpg" class="img-fluid" alt="Women's Product" /></div>
+                        <div class="img-container mt-3"><img src="assets/img/womens-prducts/img-17.jpg" class="img-fluid" alt="Women's Product" /></div>
                     </div>
                 </div>
                 <div class="group-img-box">
@@ -144,6 +152,11 @@
                 </div>
             </div>
         </div>
+
+
+
+
+        <!----------------------------------------------------------header End--------------------------------------->
         <!-- sliding section -->
         <section class="home-main-slider">
             <div class="container-fluid">
@@ -188,29 +201,29 @@
                         </h2>
                     </div>
                 </div>
-                
-        <section class="section">
-            <!-- First Part -->
-            <div class="part">
-                <img src="assets/img/womens-prducts/img-01.jpg" alt="Description of image">
-                <p>PRODUCT 1</p>
-            </div>
-            <!-- Second Part -->
-            <div class="part">
-                <img src="assets/img/womens-prducts/img-011.jpg" alt="Description of image">
-                <p>PRODUCT 2</p>
-            </div>
-            <!-- Third Part -->
-            <div class="part">
-                <img src="assets/img/womens-prducts/img-22.jpg" alt="Description of image">
-                <p>PRODUCT 3</p>
-            </div>
-            <!-- Fourth Part -->
-            <div class="part">
-                <img src="assets/img/womens-prducts/img-33.jpg" alt="Description of image">
-                <p>PRODUCT 4</p>
-            </div>
-        </section>
+
+                <section class="section">
+                    <!-- First Part -->
+                    <div class="part">
+                        <img src="assets/img/womens-prducts/img-01.jpg" alt="Description of image" />
+                        <p>PRODUCT 1</p>
+                    </div>
+                    <!-- Second Part -->
+                    <div class="part">
+                        <img src="assets/img/womens-prducts/img-011.jpg" alt="Description of image" />
+                        <p>PRODUCT 2</p>
+                    </div>
+                    <!-- Third Part -->
+                    <div class="part">
+                        <img src="assets/img/womens-prducts/img-22.jpg" alt="Description of image" />
+                        <p>PRODUCT 3</p>
+                    </div>
+                    <!-- Fourth Part -->
+                    <div class="part">
+                        <img src="assets/img/womens-prducts/img-33.jpg" alt="Description of image" />
+                        <p>PRODUCT 4</p>
+                    </div>
+                </section>
             </div>
         </section>
         <!-- Best selling product  -->
@@ -551,40 +564,32 @@
             </div>
         </section>
 
-
-
-
-
         <!-- ----------------------------------------video section start----------------------------- -->
-
 
         <section class="outer-section">
             <section class="inner-section">
                 <div class="part video-part">
-                    <video width="640"  height="360" src="assets/img/videos/video 1.mp4" autoplay muted>
-                        <p> Try this page in a modern browser! Or you can <a  href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the  video</a> instead.</p>
+                    <video width="640" height="360" src="assets/img/videos/video 1.mp4" autoplay muted>
+                        <p>Try this page in a modern browser! Or you can <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the video</a> instead.</p>
                     </video>
                 </div>
                 <div class="part video-part">
-                    <video width="640"  height="360" src="assets/img/videos/video2.mp4" autoplay muted>
-                        <p> Try this page in a modern browser! Or you can <a  href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the  video</a> instead.</p>
+                    <video width="640" height="360" src="assets/img/videos/video2.mp4" autoplay muted>
+                        <p>Try this page in a modern browser! Or you can <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the video</a> instead.</p>
                     </video>
                 </div>
                 <div class="part video-part">
-                    <video width="640"  height="360" src="assets/img/videos/video 3.mp4" autoplay muted>
-                        <p> Try this page in a modern browser! Or you can <a  href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the  video</a> instead.</p>
+                    <video width="640" height="360" src="assets/img/videos/video 3.mp4" autoplay muted>
+                        <p>Try this page in a modern browser! Or you can <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the video</a> instead.</p>
                     </video>
                 </div>
                 <div class="part video-part">
-                    <video width="640"  height="360" src="assets/img/videos/video 4.mp4" autoplay muted>
-                        <p> Try this page in a modern browser! Or you can <a  href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the  video</a> instead.</p>
+                    <video width="640" height="360" src="assets/img/videos/video 4.mp4" autoplay muted>
+                        <p>Try this page in a modern browser! Or you can <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw">download the video</a> instead.</p>
                     </video>
                 </div>
             </section>
         </section>
-
-
-
 
         <!-- ----------------------------------------video section End----------------------------- -->
         <!-- section whats your style   -->
@@ -683,14 +688,6 @@
             </div>
         </section>
 
-
-
-
-
-
-        
-
-
         <!-- ---------------------------------------------children poster start-------------------------------------------------------- -->
 
         <section class="container-fluid text-center py-5">
@@ -700,6 +697,8 @@
 
 
 
+<!-------------------------------------------------footer start--------------------------------------------------->
+
 
 
 
@@ -707,31 +706,27 @@
         <section class="section">
             <!-- First Part -->
             <div class="part">
-                <img src="assets/img/icons/tigericon.svg" alt="Description of image">
+                <img src="assets/img/icons/tigericon.svg" alt="Description of image" />
                 <p class="mt-4">MADE IN INDIA</p>
             </div>
             <!-- Second Part -->
             <div class="part">
-                <img src="assets/img/icons/batchicon.svg" alt="Description of image">
+                <img src="assets/img/icons/batchicon.svg" alt="Description of image" />
 
                 <p>ASSURED QUALITY</p>
             </div>
             <!-- Third Part -->
             <div class="part">
-                <img src="assets/img/icons/newslettericon.svg" alt="Description of image">
+                <img src="assets/img/icons/newslettericon.svg" alt="Description of image" />
                 <p>SECURE PAYMENTS</p>
             </div>
             <!-- Fourth Part -->
             <div class="part">
-                <img src="assets/img/icons/handsicon.svg" alt="Description of image">
+                <img src="assets/img/icons/handsicon.svg" alt="Description of image" />
                 <p class="mt-4">EMPOWERING WEAVERS</p>
             </div>
         </section>
         <!------------------------------------------- middle section end--------------------------------- -->
-
-
-
-
 
         <div class="row first-row-footer align-items-center">
             <div class="col-12 col-md-6">
@@ -754,75 +749,63 @@
         <!-- ---------------------------------------------children poster End-------------------------------------------------------- -->
         <!-- spot light section  -->
 
-
-        
-
-        <hr>
+        <hr />
         <section class="spotlight-section-main">
             <div class="conatiner-fluid">
                 <div class="row"></div>
             </div>
         </section>
 
-      
-        
-     
-          <div class="footer-container">
+        <div class="footer-container">
             <div class="footer">
-              <div class="footer-content">
-                <!-- <div class="newsletter">
+                <div class="footer-content">
+                    <!-- <div class="newsletter">
                   <h2>Subscribe to Our Newsletter</h2>
                   <div class="newsletter-form">
                     <input class="newsletter-input" placeholder="Email here" />
                     <button class="newsletter-btn">Submit</button>
                   </div>
                 </div> -->
-                <div class="footer-row">
-                    <div class="footer-column">
-                        <div class="footer-links">
-                          <h3>About Us</h3>
-                          <a href="/">Our Story</a>
-                          <a href="/aboutus">Sustainability</a>
-                          <a href="/services">Careers</a>
-                          <a href="#">Press</a>
-                          <a href="/contact">Blog</a>
+                    <div class="footer-row">
+                        <div class="footer-column">
+                            <div class="footer-links">
+                                <h3>About Us</h3>
+                                <a href="/">Our Story</a>
+                                <a href="/aboutus">Sustainability</a>
+                                <a href="/services">Careers</a>
+                                <a href="#">Press</a>
+                                <a href="/contact">Blog</a>
+                            </div>
                         </div>
-                      </div>
-        
-                  <div class="footer-column">
-                    <div class="footer-links">
-                      <h3>Customer Services</h3>
-                      <a href="/">Contact Us</a>
-                      <a href="/aboutus">Shipping Information</a>
-                      <a href="/services">Return and Exchanges</a>
-                      <a href="#">FAQ's</a>
-                      <a href="/contact">Size Guide</a>
-                    </div>
-                  </div>
-                  <div class="footer-column">
-                    <div class="footer-links">
-                      <h3>Shop</h3>
-                      <a href="#">New Arrivals</a>
-                      <a href="#">Men's Clothing</a>
-                      <a href="#">Women's Clothing</a>
-                      <a href="#">Accessories</a>
-                      <a href="#">Sale</a>
-                    </div>
-                  </div>
-                  <div class="footer-column">
-                    <div class="footer-contact">
-                      <h3>Get In Touch</h3>
-                      <p>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> Hyderabad, Telangana 500045
-                      </p>
-                      <p>
-                        <i class="fa fa-phone" aria-hidden="true"></i> +91 8008146642
-                      </p>
-                      <p>
-                        <i class="fa fa-envelope"></i> abcd@example.com
-                      </p>
-                      <div class="footer-social">
-                        <!-- Uncomment and add links if needed
+
+                        <div class="footer-column">
+                            <div class="footer-links">
+                                <h3>Customer Services</h3>
+                                <a href="/">Contact Us</a>
+                                <a href="/aboutus">Shipping Information</a>
+                                <a href="/services">Return and Exchanges</a>
+                                <a href="#">FAQ's</a>
+                                <a href="/contact">Size Guide</a>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-links">
+                                <h3>Shop</h3>
+                                <a href="#">New Arrivals</a>
+                                <a href="#">Men's Clothing</a>
+                                <a href="#">Women's Clothing</a>
+                                <a href="#">Accessories</a>
+                                <a href="#">Sale</a>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-contact">
+                                <h3>Get In Touch</h3>
+                                <p><i class="fa fa-map-marker" aria-hidden="true"> </i> Shop No : 97, Anupam Textile Market Ring Road, SURAT - 395002</p>
+                                <p><i class="fa fa-phone" aria-hidden="true"></i> +91 8825135770</p>
+                                <p><i class="fa fa-envelope"> </i> imsonu2007@gmail.com</p>
+                                <div class="footer-social">
+                                    <!-- Uncomment and add links if needed
                         <a href="#">
                           <i class="fab fa-twitter"></i>
                         </a>
@@ -839,109 +822,130 @@
                           <i class="fab fa-linkedin-in"></i>
                         </a>
                         -->
-                      </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="footer-menu">
-                <div class="f-menu">
-                  <a href="#">Terms of Use</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Cookies</a>
-                  <a href="#">Help</a>
-                  <a href="#">FAQs</a>
+                <div class="footer-menu">
+                    <div class="f-menu">
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Help</a>
+                        <a href="#">FAQs</a>
+                    </div>
                 </div>
-              </div>
-              <div class="footer-copyright">
-                <div class="footer-row">
-                  <div class="footer-column">
-                    <p>
-                      &copy; <a href="#"></a>, All Rights
-                      Reserved.
-                    </p>
-                  </div>
-                  <div class="footer-column">
-                    <p>
-                      Developed & Maintained By
-                      <!-- <a href="#">R.Tech Solutions</a> -->
-                    </p>
-                  </div>
+                <div class="footer-copyright">
+                    <div class="footer-row">
+                        <div class="footer-column">
+                            <p>&copy; <a href="#"></a>, All Rights Reserved.</p>
+                        </div>
+                        <div class="footer-column">
+                            <p>
+                                Developed & Maintained By
+                                <!-- <a href="#">R.Tech Solutions</a> -->
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <!-- ----------------------------------------------modals start-------------------------------------------->
-          <div id="loginModal" class="modal">
+        </div>
+        <!-- ----------------------------------------------modals start-------------------------------------------->
+        <div id="loginModal" class="modal">
             <!-- <div class="modal-content"> -->
-              <span class="close" onclick="closeModal()">&times;</span>
-             <!-- start -->
-             <div class="form-container">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <!-- start -->
+            <div class="form-container">
                 <p class="title">Welcome back</p>
                 <form class="form">
-                  <input type="email" class="input" placeholder="Email">
-                  <input type="password" class="input" placeholder="Password">
-                  <p class="page-link">
-                    <span class="page-link-label">Forgot Password?</span>
-                  </p>
-                  <button class="form-btn">Log in</button>
+                    <input type="email" class="input" placeholder="Email" />
+                    <input type="password" class="input" placeholder="Password" />
+                    <p class="page-link">
+                        <span class="page-link-label">Forgot Password?</span>
+                    </p>
+                    <button class="form-btn">Log in</button>
                 </form>
-                <p class="sign-up-label">
-                  Don't have an account?<span class="sign-up-link">Sign up</span>
-                </p>
+                <p class="sign-up-label">Don't have an account?<span class="sign-up-link">Sign up</span></p>
                 <div class="buttons-container">
-                  <div class="apple-login-button">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" class="apple-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"></path>
-                    </svg>
-                    <span>Log in with Apple</span>
-                  </div>
-                  <div class="google-login-button">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" x="0px" y="0px" class="google-icon" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                      <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
+                    <div class="apple-login-button">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" class="apple-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"
+                            ></path>
+                        </svg>
+                        <span>Log in with Apple</span>
+                    </div>
+                    <div class="google-login-button">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" x="0px" y="0px" class="google-icon" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                fill="#FFC107"
+                                d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
               c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24
-              c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
-                      <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657
-              C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
-                      <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36
-              c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
-                      <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
-              c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
-                    </svg>
-                    <span>Log in with Google</span>
-                  </div>
+              c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"
+                            ></path>
+                            <path
+                                fill="#FF3D00"
+                                d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657
+              C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"
+                            ></path>
+                            <path
+                                fill="#4CAF50"
+                                d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36
+              c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"
+                            ></path>
+                            <path
+                                fill="#1976D2"
+                                d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
+              c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
+                            ></path>
+                        </svg>
+                        <span>Log in with Google</span>
+                    </div>
                 </div>
-              </div>
-             <!-- end -->
             </div>
-          </div>
-        
-          <!-- ----------------------------------------------modals code -------------------------------------------->
-           <!-- modal script -->
-           <script>
+            <!-- end -->
+        </div>
+
+        <!-- ----------------------------------------------modals code -------------------------------------------->
+        <!-- modal script -->
+        <script>
             // Function to open the modal
             function openModal() {
-              document.getElementById('loginModal').style.display = 'flex';
+                document.getElementById("loginModal").style.display = "flex";
             }
-        
+
             // Function to close the modal
             function closeModal() {
-              document.getElementById('loginModal').style.display = 'none';
+                document.getElementById("loginModal").style.display = "none";
             }
-        
+
             // Close the modal if clicked outside of it
-            window.onclick = function(event) {
-              const modal = document.getElementById('loginModal');
-              if (event.target === modal) {
-                modal.style.display = 'none';
-              }
-            }
-          </script>
-           <!-- modal script -->
-        
+            window.onclick = function (event) {
+                const modal = document.getElementById("loginModal");
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            };
+        </script>
+        <!-- modal script -->
+         <!-- search-bar code start  -->
+             <!-- Search Button -->
+
+
+    <!-- Search Popup -->
+    <div id="searchPopup" class="popup">
+        <div class="popup-content">
+            <img src="/assets/img/logo/siyaavar-siyaa.png" alt="" width="100%">
+            <span class="close-btn" id="closePopup">&times;</span>
+            <input type="text" class="search-input" placeholder="Search items...">
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+         <!-- search-bar code end  -->
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=8825135770&text=Hi" class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
 
@@ -963,27 +967,26 @@
         </script>
 
         <script>
-            const headings = [
-    "Welcome to Our Website!",
-    "Discover Our Features",
-    "Experience Innovation",
-    "Join Our Community"
-];
+            const headings = ["Welcome to Our Website!", "Discover Our Features", "Experience Innovation", "Join Our Community"];
 
-let currentIndex = 0;
+            let currentIndex = 0;
 
-function changeHeading() {
-    const headingElement = document.getElementById('dynamic-heading');
-    headingElement.textContent = headings[currentIndex];
-    currentIndex = (currentIndex + 1) % headings.length;
-}
+            function changeHeading() {
+                const headingElement = document.getElementById("dynamic-heading");
+                headingElement.textContent = headings[currentIndex];
+                currentIndex = (currentIndex + 1) % headings.length;
+            }
 
-// Change the heading every 5 seconds
-setInterval(changeHeading, 5000);
+            // Change the heading every 5 seconds
+            setInterval(changeHeading, 5000);
 
-// Initialize with the first heading
-window.onload = changeHeading;
-
+            // Initialize with the first heading
+            window.onload = changeHeading;
         </script>
+        <script src="script.js"></script>
+
+
+        <!-------------------------------------------------footer End--------------------------------------------------->
+
     </body>
 </html>

@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   scrollbar-width: none !important;
+}
+
+.bg-light {
+  padding: 1rem 0;
+}
+
+.part {
+  background: transparent !important;
 }
 
 .font-style {
@@ -41,7 +51,12 @@
   flex-direction: column;
   align-items: baseline;
 }
-.home-header-main .home-main-nav .left-main .home-main-ul .mans-li:hover .drop-down-main {
+.home-header-main
+  .home-main-nav
+  .left-main
+  .home-main-ul
+  .mans-li:hover
+  .drop-down-main {
   display: block;
 }
 .home-header-main .home-main-nav .logo-main img {
@@ -58,19 +73,37 @@
   padding-left: 0rem;
   padding-bottom: 0rem;
 }
-.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images {
+.home-header-main
+  .home-main-nav
+  .nav-right
+  .offcanvas
+  .siyaa-box
+  .womens_images {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 1rem 0rem;
 }
-.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images .img-container {
+.home-header-main
+  .home-main-nav
+  .nav-right
+  .offcanvas
+  .siyaa-box
+  .womens_images
+  .img-container {
   max-height: 100px;
   max-width: 100px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
-.home-header-main .home-main-nav .nav-right .offcanvas .siyaa-box .womens_images .img-container img {
+.home-header-main
+  .home-main-nav
+  .nav-right
+  .offcanvas
+  .siyaa-box
+  .womens_images
+  .img-container
+  img {
   max-height: 100px;
   max-width: 100px;
   border-radius: 1rem;
@@ -88,7 +121,7 @@
 }
 
 .sales-first-section {
-  background-color: #FFF8DB;
+  background-color: #fff8db;
   padding-bottom: 4rem;
 }
 .sales-first-section .first-offer-box {
@@ -205,14 +238,18 @@
   align-items: center;
   justify-content: center;
 }
-.catergory-main .offer-main-row .siyaavar-main .siyaavar-sub-main .first-sub-head {
+.catergory-main
+  .offer-main-row
+  .siyaavar-main
+  .siyaavar-sub-main
+  .first-sub-head {
   margin-bottom: 0;
   padding: 5px;
 }
 
 .style-main {
   font-family: "Baskervville SC", serif;
-  background-color: #FFF8DB;
+  background-color: #fff8db;
   padding: 3rem 0rem;
 }
 .style-main .style-main-heading {
@@ -267,7 +304,11 @@
   align-items: center;
   padding: 0rem 3rem;
 }
-.new-arrival-section-main .new-arrival-main-row .new-arrival-main-box .img-box-main img {
+.new-arrival-section-main
+  .new-arrival-main-row
+  .new-arrival-main-box
+  .img-box-main
+  img {
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -333,9 +374,7 @@
 .home-main-footer .footer-last-row P {
   margin-bottom: 5px;
   font-size: 15px;
-}/*# sourceMappingURL=main.css.map */
-
-
+} /*# sourceMappingURL=main.css.map */
 
 /* 
 
@@ -361,14 +400,9 @@
   display: block;
 }
 
-
-
-
-
 .navbar-brand {
   display: flex;
   justify-content: center;
-  flex-grow: 1;
 }
 .dropdown-menu {
   display: none;
@@ -380,28 +414,24 @@
   padding: 1rem;
 }
 
-
-
-
-
 /* ---------------------------------------------------------my code start-------------------------------------------------------- */
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
 }
 /* ---------------------------------------------------------my code end-------------------------------------------------------- */
 
@@ -480,7 +510,7 @@
 .footer-links h3,
 .footer-contact h3 {
   margin-bottom: 20px;
-  color: #FF9C1B;
+  color: #ff9c1b;
   font-size: 22px;
 }
 
@@ -502,7 +532,7 @@
   /* letter-spacing: -0.03em; */
   text-decoration-line: underline;
 
-  color: #FF9C1B;
+  color: #ff9c1b;
 }
 
 .footer-social a {
@@ -558,13 +588,6 @@
   }
 }
 
-
-
-
-
-
-
-
 /* ----------------------------------------------------my code start---------------------------------------------- */
 .section {
   display: flex;
@@ -579,30 +602,25 @@
   text-align: center;
 }
 .part img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 .part p {
   margin: 10px 0 0;
+  font-family: "Marcellus SC", serif;
 }
 /* Responsive design */
 @media (min-width: 600px) {
   .part {
-      flex: 1 1 48%;
+    flex: 1 1 48%;
   }
 }
 @media (min-width: 900px) {
   .part {
-      flex: 1 1 23%;
+    flex: 1 1 23%;
   }
 }
 /* ----------------------------------------------------my code end---------------------------------------------- */
-
-
-
-
-
-
 
 .section {
   display: flex;
@@ -617,7 +635,7 @@
   text-align: center;
 }
 .part img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -627,22 +645,16 @@
 /* Responsive design */
 @media (min-width: 600px) {
   .part {
-      flex: 1 1 48%;
+    flex: 1 1 48%;
   }
 }
 @media (min-width: 900px) {
   .part {
-      flex: 1 1 23%;
+    flex: 1 1 23%;
   }
 }
 
-
 /* -----------------------------------------------------------------video css code start------------------------------------- */
-
-
-
-
-
 
 .outer-section {
   padding: 20px;
@@ -662,7 +674,6 @@
   background-color: #fff;
   /* border: 1px solid #ddd; */
   padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .video-part {
@@ -678,17 +689,11 @@
 
 @media (max-width: 768px) {
   .inner-section {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
-
-
-
-
 /* -----------------------------------------------------------------video css code End------------------------------------- */
-
-
 
 /* another gaurav code */
 .dynamic-section {
@@ -709,19 +714,15 @@ h1 {
 
 @media (max-width: 600px) {
   .dynamic-section {
-      height: 20px;
+    height: 20px;
   }
 
   h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
-
-
-
 /* another gaurav code */
-
 
 .product-section {
   display: flex;
@@ -730,7 +731,7 @@ h1 {
   padding: 20px;
   overflow: hidden;
   position: relative;
-  background-color: #FFF8DB;
+  background-color: #fff8db;
 }
 
 .product-wrapper {
@@ -771,7 +772,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #F6BB35;
+  background-color: #f6bb35;
   color: white;
   border: none;
   padding: 10px;
@@ -840,7 +841,7 @@ h1 {
 }
 
 .buy-now-btn-custom {
-  background-color: #F6BB35;
+  background-color: #f6bb35;
   color: white;
   border: none;
   padding: 10px;
@@ -854,7 +855,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #F6BB35;
+  background-color: #f6bb35;
   color: white;
   border: none;
   padding: 10px;
@@ -894,9 +895,6 @@ h1 {
   }
 }
 /* ------------------------------------------------animated button css code---------------------------------------- */
-
-
-
 
 /* Modal background */
 .modal {
@@ -965,10 +963,6 @@ h1 {
   }
 }
 
-
-
-
-
 .form-container {
   width: 350px;
   height: 500px;
@@ -982,7 +976,7 @@ h1 {
 .title {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px 0 30px 0;
   font-size: 28px;
   font-weight: 800;
@@ -1015,7 +1009,7 @@ h1 {
 .page-link-label {
   cursor: pointer;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 9px;
   font-weight: 700;
 }
@@ -1027,7 +1021,7 @@ h1 {
 .form-btn {
   padding: 10px 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-radius: 20px;
   border: 0 !important;
   outline: 0 !important;
@@ -1046,7 +1040,7 @@ h1 {
   font-size: 10px;
   color: #747474;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .sign-up-link {
@@ -1058,7 +1052,7 @@ h1 {
   cursor: pointer;
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .buttons-container {
@@ -1071,18 +1065,18 @@ h1 {
 }
 
 .apple-login-button,
-    .google-login-button {
+.google-login-button {
   border-radius: 20px;
   box-sizing: border-box;
   padding: 10px 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 11px;
   gap: 5px;
 }
@@ -1098,15 +1092,10 @@ h1 {
 }
 
 .apple-icon,
-    .google-icon {
+.google-icon {
   font-size: 18px;
   margin-bottom: 1px;
 }
-
-
-
-
-
 
 /* product section css */
 .product-grid {
@@ -1132,7 +1121,7 @@ h1 {
 .purchase-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #F6BB35;
+  background-color: #f6bb35;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -1147,27 +1136,21 @@ h1 {
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .product-grid {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .purchase-btn {
     display: inline-block;
     padding: 5px 10px;
     font-size: 14px;
-    background-color: #F6BB35;
+    background-color: #f6bb35;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
     transition: background-color 0.3s ease;
   }
-
 }
 /* product section css */
-
-
-
-
-
 
 /* search bar code css start */
 /* Search Button */
@@ -1179,11 +1162,7 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.5s  ;
-}
-
-.search-btn:hover {
-  /* background-color: #45a049; */
+  transition: 0.5s;
 }
 
 /* Popup Styles */
@@ -1221,7 +1200,7 @@ h1 {
   margin-top: 10px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #FBB118;
+  background-color: #fbb118;
   color: white;
   border: none;
   border-radius: 5px;
@@ -1229,7 +1208,7 @@ h1 {
 }
 
 .submit-btn:hover {
-  background-color: #FBB118;
+  background-color: #fbb118;
 }
 
 /* Close Button */
@@ -1245,12 +1224,12 @@ h1 {
 /* Mobile Responsive */
 @media (max-width: 600px) {
   .popup-content {
-      width: 95%;
-      padding: 15px;
+    width: 95%;
+    padding: 15px;
   }
-  
+
   .search-input {
-      width: 90%;
+    width: 90%;
   }
 }
 /* search bar code css end */

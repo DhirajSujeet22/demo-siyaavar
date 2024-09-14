@@ -1,0 +1,238 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "title": "Mens Casual Slim Fit T-Shirt Variant 1",
+      "price": 19.99,
+      "description": "Lightweight and breathable, perfect for casual outings.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14574646/pexels-photo-14574646.jpeg",
+      "rating": {
+        "rate": 4.5,
+        "count": 120
+      },
+      "item": "casual t-shirt"
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Slim Fit Sherwani",
+      "price": 120.0,
+      "description": "Elegant sherwani with intricate embroidery.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14632970/pexels-photo-14632970.jpeg",
+      "rating": {
+        "rate": 4.9,
+        "count": 55
+      },
+      "item": "sherwani"
+    },
+    {
+      "id": 3,
+      "title": "Mens Casual Slim Fit Kurta",
+      "price": 60.0,
+      "description": "Comfortable kurta with traditional design.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15315391/pexels-photo-15315391.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 75
+      },
+      "item": "kurta"
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Premium Slim Fit Suit",
+      "price": 200.0,
+      "description": "Premium suit with a modern fit.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15586237/pexels-photo-15586237.jpeg",
+      "rating": {
+        "rate": 4.8,
+        "count": 40
+      },
+      "item": "suit"
+    },
+    {
+      "id": 5,
+      "title": "Mens Casual Premium Slim Fit T-Shirt Variant 5",
+      "price": 24.99,
+      "description": "Comfortable fit with a trendy look.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15429650/pexels-photo-15429650.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 100
+      },
+      "item": "casual t-shirt"
+    },
+    {
+      "id": 6,
+      "title": "Mens Casual Slim Fit Sherwani",
+      "price": 125.0,
+      "description": "Luxurious sherwani with detailed craftsmanship.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14632970/pexels-photo-14632970.jpeg",
+      "rating": {
+        "rate": 5.0,
+        "count": 30
+      },
+      "item": "sherwani"
+    },
+    {
+      "id": 7,
+      "title": "Mens Casual Slim Fit Kurta",
+      "price": 65.0,
+      "description": "Stylish kurta with fine fabric.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15315391/pexels-photo-15315391.jpeg",
+      "rating": {
+        "rate": 4.8,
+        "count": 60
+      },
+      "item": "kurta"
+    },
+    {
+      "id": 8,
+      "title": "Mens Casual Slim Fit Suit",
+      "price": 210.0,
+      "description": "Elegant suit with classic tailoring.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15586237/pexels-photo-15586237.jpeg",
+      "rating": {
+        "rate": 4.9,
+        "count": 50
+      },
+      "item": "suit"
+    },
+    {
+      "id": 9,
+      "title": "Mens Casual Premium Slim Fit T-Shirt Variant 9",
+      "price": 23.45,
+      "description": "Stylish design with a comfortable fit.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15429650/pexels-photo-15429650.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 90
+      },
+      "item": "casual t-shirt"
+    },
+    {
+      "id": 10,
+      "title": "Mens Casual Premium Slim Fit Suit",
+      "price": 230.0,
+      "description": "High-quality material with a sharp design.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15586237/pexels-photo-15586237.jpeg",
+      "rating": {
+        "rate": 5.0,
+        "count": 25
+      },
+      "item": "suit"
+    },
+    {
+      "id": 11,
+      "title": "Mens Casual Slim Fit T-Shirt Variant 11",
+      "price": 22.99,
+      "description": "Trendy and comfortable for all-day wear.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14574646/pexels-photo-14574646.jpeg",
+      "rating": {
+        "rate": 4.6,
+        "count": 85
+      },
+      "item": "casual t-shirt"
+    },
+    {
+      "id": 12,
+      "title": "Mens Casual Slim Fit Sherwani",
+      "price": 135.0,
+      "description": "Beautiful sherwani with detailed embroidery.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14632970/pexels-photo-14632970.jpeg",
+      "rating": {
+        "rate": 4.8,
+        "count": 40
+      },
+      "item": "sherwani"
+    },
+    {
+      "id": 13,
+      "title": "Mens Casual Slim Fit Kurta",
+      "price": 70.0,
+      "description": "Elegant kurta for formal occasions.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15315391/pexels-photo-15315391.jpeg",
+      "rating": {
+        "rate": 4.9,
+        "count": 55
+      },
+      "item": "kurta"
+    },
+    {
+      "id": 14,
+      "title": "Mens Casual Slim Fit Suit",
+      "price": 190.0,
+      "description": "Stylish and refined suit for modern professionals.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15586237/pexels-photo-15586237.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 70
+      },
+      "item": "suit"
+    },
+    {
+      "id": 15,
+      "title": "Mens Casual Premium Slim Fit T-Shirt Variant 15",
+      "price": 25.99,
+      "description": "Comfortable and stylish for everyday wear.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15429650/pexels-photo-15429650.jpeg",
+      "rating": {
+        "rate": 4.6,
+        "count": 95
+      },
+      "item": "casual t-shirt"
+    },
+    {
+      "id": 16,
+      "title": "Mens Casual Slim Fit Sherwani",
+      "price": 145.0,
+      "description": "Richly designed sherwani for special events.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/14632970/pexels-photo-14632970.jpeg",
+      "rating": {
+        "rate": 4.9,
+        "count": 35
+      },
+      "item": "sherwani"
+    },
+    {
+      "id": 17,
+      "title": "Mens Casual Slim Fit Kurta",
+      "price": 75.0,
+      "description": "Trendy kurta with a classic design.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15315391/pexels-photo-15315391.jpeg",
+      "rating": {
+        "rate": 4.8,
+        "count": 45
+      },
+      "item": "kurta"
+    },
+    {
+      "id": 18,
+      "title": "Mens Casual Slim Fit Suit",
+      "price": 220.0,
+      "description": "Perfectly tailored suit for any occasion.",
+      "category": "men's clothing",
+      "image": "https://images.pexels.com/photos/15586237/pexels-photo-15586237.jpeg",
+      "rating": {
+        "rate": 4.8,
+        "count": 60
+      },
+      "item": "suit"
+    }
+  ]
+}

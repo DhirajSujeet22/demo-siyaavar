@@ -753,10 +753,11 @@ h1 {
 }
 
 .product-card img {
-  width: 100%;
-  height: auto;
+  width: 207px;
+  height: 161px;
   transition: transform 0.3s ease;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .product-card:hover img {
